@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #B13996;
+}
+
+.container {
+    background-color: #B13996;
+    box-shadow: 20px 20px rgba(0, 0, 0, 0.274);
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 20px;
+    width: 60%;
+    max-width: 600px;
+    height: 400px;
+   border-left:solid 5px white;
+   border-top: solid 5px white;
+}
+
+.texto {
+    margin: 5% 2%;
+    padding: 2%;
+    text-align: center;
+    color:white;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+    .texto {
+        font-size: 1rem;
+        margin: 10% 5%;
+        padding: 5%;
+    }
+}
+
+.respuestas {
+    margin-top: 20%;
+    text-align: center;
+}
+
+.derecha, .izquierda {
+    background-color: #B13996;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.419);
+    cursor: pointer;
+    font-family: 'Tilt Prism', cursive;
+    color:white;
+    border-color: rgba(255, 255, 255, 0.395);
+    border-radius: 5px;
+    width: 60px;
+    margin: auto;
+}
+
+.derecha {
+    margin-left: 20%;
+}
+
+.mov1 {
+    position: absolute;
+    top: 30px;
+    right: 69px;
+}
+
+.mov2 {
+    position: absolute;
+    bottom: 30px;
+}
+
+.afirmativo {
+    display: none;
+    background-color: #B13996;
+    box-shadow: 20px 20px rgba(0, 0, 0, 0.419);
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 20px;
+    width: 60%;
+    max-width: 600px;
+    height: 400px;
+    color:white;
+    padding: 2%;
+    text-align: center;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 1.5rem;
+    border-left:solid 5px white;
+    border-top: solid 5px white;
+}
+
+@media (max-width: 768px) {
+    .afirmativo {
+        font-size: 1rem;
+        margin: 10% 5%;
+        padding: 5%;
+    }
+}
+
+h4 {
+    font-size: 2.2rem;
+}
